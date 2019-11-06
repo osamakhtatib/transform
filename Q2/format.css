@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.9),rgba(255, 107, 107, 0.9),rgba(255, 255, 255, 0.9));
+    float: left;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+.div1,.div3,.div6,.div7,.div9{
+    transform: rotate(-10deg);
+}
+.div2,.div4,.div5,.div8{
+    transform: rotate(10deg);
+}
+.div1:hover,.div2:hover,.div3:hover,.div4:hover,.div5:hover,.div6:hover,.div7:hover,.div8:hover,.div9:hover{
+    transform: scale(1.5,1.5);
+    box-shadow: 2px 2px 10px;
+    transition-property: all;
+    transition-duration: 2s;
+}
